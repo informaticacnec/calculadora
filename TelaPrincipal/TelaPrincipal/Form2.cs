@@ -10,19 +10,21 @@ using System.Windows.Forms;
 
 namespace TelaPrincipal
 {
-    public partial class Form1 : Form
+    public partial class Form2 : Form
     {
-        public Form1()
+        public Form2()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form2 soma = new Form2();
+          double num1 = Convert.ToDouble(tb_num1.Text);
+          double num2 = Convert.ToDouble(tb_num2.Text);
 
-            soma.Show();
-            this.Visible = this.Enabled = false;
+            string resultado = Convert.ToString(num1 + num2) ;
+            
+            MessageBox.Show(resultado);
         }
     }
 }
