@@ -8,15 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TelaPrincipal
+namespace WindowsFormsApplication1
 {
-    public partial class Form1 : Form
+    public partial class Form1 : MetroFramework.Forms.MetroForm
     {
         public Form1()
         {
             InitializeComponent();
         }
-
-        
     }
 }
