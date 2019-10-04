@@ -72,7 +72,7 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <Compile Include="Subtração.cs">
+    <Compile Include="Subtracao.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Subtração.Designer.cs">
